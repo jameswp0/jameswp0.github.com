@@ -1,0 +1,27 @@
+---
+layout: post
+category : lessons
+tagline: "Supporting tagline"
+tags : [intro, beginner, jekyll, tutorial]
+---
+{% include JB/setup %}
+
+[YAML Front-Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)
+
+<h1> Test </h1>
+<h2>Test</h2>
+## Test
+
+### What is Jekyll?
+
+
+
+{% capture text %}...
+<body>
+  <div id="sidebar"> ... </div>
+  <div id="main">
+    |.{content}.|
+  </div>
+</body>
+...{% endcapture %}
+{% include JB/liquid_raw %}
