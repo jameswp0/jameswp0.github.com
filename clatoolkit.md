@@ -2,6 +2,7 @@
 layout: page
 title: "The Connected Learning Analytics (CLA) Toolkit"
 description: "Index Page for CLAToolkit"
+group: navigation
 ---
 {% include JB/setup %}
 
