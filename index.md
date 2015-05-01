@@ -1,46 +1,24 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Beyond LMS
+tagline: Learning Beyond the LMS
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+  <p> 
+    These pages are in progress. They will be devoted to:
+    <ol>
+      <li>Giving people who want to teach beyond the LMS a place where they can find tools, ideas, methodologies, and support... </li>
+      <li>Giving people who create tools that do not depend upon a LMS a place to share those tools.</li>
+    </ol>
+    More information will appear as we go, but for now, you might want to check out our <a href"CLAtoolkitindex.html">=first page</a>
+    </p>
+<!-- 
+Recent Posts
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+ -->

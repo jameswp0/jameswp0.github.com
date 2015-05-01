@@ -6,13 +6,17 @@ tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
 
-[YAML Front-Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)
+# What is Jekyll?
 
-<h1> Test </h1>
-<h2>Test</h2>
-## Test
+Body
+
+## What is Jekyll?
+
+Body
 
 ### What is Jekyll?
+
+Body
 
 
 
