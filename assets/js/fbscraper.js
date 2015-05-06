@@ -112,6 +112,10 @@ function scrapeGroupFeed() {
 
 
 
+        // for (commentID = 0; commentID < 10000; commentID++) {
+        //     if (!response.data[postID].hasOwnProperty('comments') || !response.data[postID].comments.data
+        //         .hasOwnProperty(commentID))
+        //         break;
 function sendPosts(response) {
 
 	
@@ -360,14 +364,14 @@ function sendLikes(response, postID, commentNum) {
 
 }
 
-function printGroupID() {
-    FB.api("/285873894923511/members", function(response) {
-        if (response && !response.error) {
-            console.log(response);
+// function printGroupID() {
+//     FB.api("/285873894923511/members", function(response) {
+//         if (response && !response.error) {
+//             console.log(response);
 
-        }
-    });
-}
+//         }
+//     });
+// }
 
 function fetchUserAuthTable() {
     var ref = new Firebase("https://learninganalytics.firebaseio.com/");
@@ -420,7 +424,6 @@ function getUserMapping(userFacebookID) {
             ];
         }
     }
-
 }
 
 // Determine the time and date of the last scrape
@@ -432,9 +435,10 @@ function retrieveLastSubmittedStatements() {
 }
 
 function retrieveLastScrape() {
-    // Set last timestamp as date
+    //Initialise date object
     lastScrapeDate = new Date(1900, 1, 1);
 
+    // Set last timestamp as date
     for (var i = 0; i < res.statements.length; i++) {
         var node = res.statements[i];
         var currentStatementScrapeDate = new Date(node.timestamp);
@@ -459,8 +463,8 @@ function setFacebookUserInfo() {
     FB.api("/me", function(response) {
         // send json object to firebase
         usersRef.push({
-            LRSHTTPPassword: $('#individualLRSUser').val(),
-            LRSHTTPUsername: $('#individualLRSPass').val(),
+            LRSHTTPPassword: $('#individualLRSPass').val(),
+            LRSHTTPUsername: $('#individualLRSUser').val(),
             email: emailValue,
             fbID: response.id,
             name: response.name
@@ -475,7 +479,8 @@ function notifyScrape() {
         "/" + document.getElementById("groupID").value + "/feed",
         "POST", {
         	message: "The scraper has run. ####Edit Message####",
-            link: 'http://jwpilkington.me/capstone/james/gui/images/scrape-notify.png'
+ // TODO check path
+            link: './assets/images/scrape-notify.png'
 
         },
         function(response) {
