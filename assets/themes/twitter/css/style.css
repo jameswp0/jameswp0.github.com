@@ -18,11 +18,11 @@ body {
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
-     -moz-border-radius: 0 0 6px 6px;
-          border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
 
 /* Page header tweaks */
@@ -34,7 +34,16 @@ body {
 
 .topbar .btn {
   border: 0;
+  padding-left: 500px;s
 }
+
+
+ul.nav.dropdown {
+  float: right;
+}
+
+
+
 
 
 /* tag_box ======================================================== */
@@ -69,35 +78,37 @@ body {
 	color:#FFF;
 }
 form {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 
 
 label, input {
-    /* in order to define widths */
-    display: inline-block;
+  /* in order to define widths */
+  display: inline-block;
 }
 
 label {
-    width: 30%;
-    /* positions the label text beside the input */
-    text-align: right;
+  width: 30%;
+  /* positions the label text beside the input */
+  text-align: right;
 }
 
 label + input {
-    width: 30%;
+  width: 30%;
     /* large margin-right to force the next element to the new-line
-       and margin-left to create a gutter between the label and input */
+    and margin-left to create a gutter between the label and input */
     margin: 0 30% 0 4%;
-}
+  }
 
 /* only the submit button is matched by this selector,
-   but to be sure you could use an id or class for that button */
+but to be sure you could use an id or class for that button */
 input + input {
-    float: right;
+  float: right;
 }
+
+/* Modified CSS */
 
 input[type="checkbox"]{
 	margin: 2% 1% 0 20%;
@@ -109,9 +120,10 @@ button {
 	width: 30%;
 	margin: 2% 0 0 20%;
 	padding: 10px 15px;
-    background: #4479BA;
-    color: #FFF
+  background: #4479BA;
+  color: #FFF
 }
+
 ​
 
 
