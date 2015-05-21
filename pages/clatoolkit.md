@@ -9,6 +9,10 @@ description: ""
 <p> 
 	<a href="http://connectedlearning.tv/infographicv">Connected Learning</a> is a modern pedagogical approach holding that knowledge and learning is distributed across a social, conceptual network. It holds that when people forge, negotiate and nurture connections for themselves (between people, information, knowledge, ideas and concepts), learning is more powerful and sustainable.
 </p>
+
+<iframe src = "/ViewerJS/#../assets/papers/prop.id.qut.kitto.2014-front.pdf" width='800' height='600' allowfullscreen webkitallowfullscreen></iframe>
+
+
 <p>
 	Ideally, such learning could happen anywhere. People would create <a href="http://teacherchallenge.edublogs.org/creating-a-pln/">Personal Learning Networks</a> within a <a href="https://coi.athabascau.ca/">Community of Inquiry</a>. They would use whatever tools they consider relevant to this process, and connect with whoever they consider relevant to their network... However, this open connectivism is difficult to achieve in our current educational model. <a href="http://en.wikipedia.org/wiki/List_of_learning_management_systems">Learning Management Systems</a> maintain a <a href="http://mfeldstein.com/state-us-higher-education-lms-market-2014-edition/">dominant position</a> in the education sector.
 </p>
